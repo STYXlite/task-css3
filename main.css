@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+a:hover {
+  color: #ffc800;
+
+}
+
+.clr {
+  clear: both;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+a {
+  text-decoration: none;
+  color: gainsboro;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.containerTwo {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
+
+
+.navbar {
+  background-color: darkslategray;
+  padding: 25px;
+  height: 50px;
+  font-size: 20px;
+  letter-spacing: 0.0625em;
+  font-family: sans-serif;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  width: 300px;
+}
+
+.list {
+  float: right;
+
+}
+
+.list ul {
+  list-style-type: none;
+}
+
+.list ul li {
+  float: left;
+  margin: 15px;
+  text-transform: uppercase;
+}
+
+.bottomOfbar {
+
+  padding: 25px;
+  height: fit-content;
+  font-size: 30px;
+  letter-spacing: 0.0625em;
+  font-family: sans-serif;
+}
+
+.one {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 10px;
+
+
+}
+
+.twos {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #6c757d !important;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.headrs {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+
+.two {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 25px;
+  color: #6c757d !important;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
+
+.imgItem1 {
+  width: 32%;
+  align-items: center;
+  float: left;
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 0;
+  font-family: sans-serif;
+
+
+  .imgItem1 img {
+    display: block;
+    width: 100%;
+    padding-right: 15px;
+  }
